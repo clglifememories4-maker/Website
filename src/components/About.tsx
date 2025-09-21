@@ -22,10 +22,10 @@ const About = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/80"></div>
       <div className="absolute inset-0 bg-gradient-to-t from-red-950/60 via-transparent to-red-950/40"></div>
       {/* Smudge effects at top and bottom */}
-      <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-black via-black/80 to-transparent"></div>
-      <div className="absolute top-0 left-0 right-0 h-20 bg-gradient-to-b from-red-950/40 to-transparent"></div>
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black via-black/80 to-transparent"></div>
-      <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-red-950/40 to-transparent"></div>
+      <div className="absolute top-0 left-0 right-0 h-20 bg-gradient-to-b from-black via-black/60 to-transparent"></div>
+      <div className="absolute top-0 left-0 right-0 h-12 bg-gradient-to-b from-red-950/20 to-transparent"></div>
+      <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
+      <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-red-950/20 to-transparent"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
           <div>

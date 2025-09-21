@@ -20,8 +20,8 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/70"></div>
       <div className="absolute inset-0 bg-gradient-to-t from-red-950/60 via-transparent to-red-950/30"></div>
       {/* Smudge effect at bottom */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black via-black/80 to-transparent"></div>
-      <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-red-950/40 to-transparent"></div>
+      <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
+      <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-red-950/20 to-transparent"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center relative z-10 pt-20">
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
