@@ -9,6 +9,10 @@ const Hero = () => {
     navigate('/properties');
   };
 
+  const handleSellClick = () => {
+    navigate('/sell');
+  };
+
   return (
     <section id="home" className="relative min-h-screen text-white py-20 overflow-hidden">
       <div 
@@ -37,7 +41,10 @@ const Hero = () => {
             >
               Buy
             </button>
-            <button className="border-2 border-red-400 text-red-400 hover:bg-transparent hover:border-white hover:text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
+            <button 
+              onClick={handleSellClick}
+              className="border-2 border-red-400 text-red-400 hover:bg-transparent hover:border-white hover:text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg"
+            >
               Sell
             </button>
           </div>

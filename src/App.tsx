@@ -7,6 +7,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Properties from './components/Properties';
+import SellProperty from './components/SellProperty';
 
 const HomePage = () => (
   <>
@@ -26,6 +27,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/properties" element={<Properties />} />
+          <Route path="/sell" element={<SellProperty />} />
         </Routes>
       </div>
     </Router>
